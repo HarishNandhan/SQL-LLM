@@ -71,9 +71,6 @@ Thumbs.db
 # Logs
 *.log
 
-# Ignore screenshots and other large files
-screenshots/
-
 # Ignore database files
 *.db
 *.sqlite3
