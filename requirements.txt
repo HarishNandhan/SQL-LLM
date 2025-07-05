@@ -1,0 +1,10 @@
+streamlit
+sqlalchemy
+pymysql
+python-dotenv
+psycopg2-binary
+pipwin
+pyaudio
+SpeechRecognition
+requests
+plotly
