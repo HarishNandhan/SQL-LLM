@@ -17,7 +17,7 @@ This project is designed for ease of use and extensibility, making it a great st
 ---
 
 ## Demo
-![Demo Screenshot](demo_screenshot.png)
+![Demo Screenshot](https://github.com/HarishNandhan/SQL-LLM/blob/main/screenshots/demo.png)
 
 ---
 
@@ -25,7 +25,7 @@ This project is designed for ease of use and extensibility, making it a great st
 
 ### 1. **Clone the Repository**
 ```sh
-git clone https://github.com/yourusername/SQL-LLM.git
+git clone https://github.com/HarishNandhan/SQL-LLM.git
 cd SQL-LLM
 ```
 
@@ -53,9 +53,11 @@ pipwin install pyaudio
   ```env
   DATABASE_URI = "postgresql+psycopg2://user:password@localhost/dbname"
   ```
+- I used the API key of [Neon DB](https://console.neon.tech/)
 
 ### 4. **Add Your LLM API Key (if needed)**
 - If your LLM provider requires an API key, add it to your `.env` file or `config.py`.
+- I used EURI LLM with an API Key.
 
 ### 5. **Run the App**
 ```sh
@@ -81,7 +83,8 @@ SQL-LLM/
 ├── prompt_template.txt   # Prompt template for LLM
 ├── requirements.txt      # Python dependencies
 ├── README.md             # This file
-└── ...
+├── main.py
+├──.gitignore
 ```
 
 ---
@@ -122,4 +125,5 @@ Pull requests and suggestions are welcome! Please open an issue or PR if you hav
 - [Streamlit](https://streamlit.io/)
 - [SpeechRecognition](https://pypi.org/project/SpeechRecognition/)
 - [Plotly](https://plotly.com/python/)
-- Your favorite LLM provider 
+- [Neon DB](https://console.neon.tech/)
+- [EURI LLM](https://chat.euron.one/)
